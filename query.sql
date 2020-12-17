@@ -1,0 +1,17 @@
+--select name,id,datetime(signUpDate, 'unixepoch', 'localtime'),phone,point from members;
+--SELECT date('now');
+--select id,datetime(date, 'unixepoch', 'localtime'),invoiceId,machineId,amount from sailRecord;
+--select sum(amount) from sailRecord  where date between 0 and 9999999999 ;
+--select * from sailRecord limit 10 offset 0;
+--select * from invoce where id in (select invoiceid from sailRecord where date between 1607179761 and 1607179761) and goodsid;
+--select goodsinfo.id,goodsinfo.name,types.id as typeid,types.name as typename from goodsinfo,types where goodsinfo.typeid == types.id;
+--select sailRecord.date,invoce.goodsid,goodsinfo.price,invoce.count,types.id as tid,types.name from sailRecord,invoce,goodsinfo,types where sailRecord.invoiceId == invoce.id and invoce.goodsid == goodsinfo.id and types.id == goodsinfo.typeid == types.id
+--select sailRecord.date,invoce.goodsid,goodsinfo.name,goodsinfo.price,invoce.count,types.id as tid,types.name as tname from sailRecord,invoce,goodsinfo,types where sailRecord.invoiceId == invoce.id  and invoce.goodsid == goodsinfo.id and goodsinfo.typeid == types.id;
+--select * from for_type_count ;
+--select inventory.id,goodsinfo.name,inventory.date,inventory.inout,inventory.after,inventory.after-inventory.inout as before from inventory,goodsinfo where inventory.id == goodsinfo.id;
+--select date,id,name,inout,before,after from for_inventory_io where id = 2 and inout > 0;
+--select name,id,inv_num,latest_inv_date from goodsinfo order by latest_inv_date desc limit 10 offset 0;
+--select id,name,date,description from absenteeism order by date desc limit 6;
+--insert into members(name,id,signUpDate,phone,point) values('lty',NULL,138312,15255043089,0);
+--update members set name='666',phone=13513213 where id = 10；
+select goodsinfo.name,invoce.goodsid,invoce.count,goodsinfo.price * invoce.count as amount,goodsinfo.img from sailRecord,invoce,goodsinfo where sailRecord.invoiceId == invoce.id  and invoce.goodsid == goodsinfo.id 

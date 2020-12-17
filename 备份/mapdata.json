@@ -1,0 +1,841 @@
+{
+    "GET": {
+        "/get/MemberManagement/getMemberData": [
+            {
+                "name": "6大伟",
+                "id": "135149",
+                "signUpDate": "2020/05/15",
+                "phone": "46733564350",
+                "point": "1024"
+            },
+            {
+                "name": "tom",
+                "id": "94613",
+                "signUpDate": "2020/05/15",
+                "phone": "13549761358",
+                "point": "1241"
+            },
+            {
+                "name": "alice",
+                "id": "143197",
+                "signUpDate": "2020/05/15",
+                "phone": "578496335726",
+                "point": "8971"
+            },
+            {
+                "name": "李华",
+                "id": "59743",
+                "signUpDate": "2020/05/15",
+                "phone": "46879135795",
+                "point": "3148"
+            }
+        ],
+        "/get/DayIncomeChart/getData": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            11,
+            15,
+            17,
+            19,
+            23,
+            30,
+            35,
+            50,
+            55,
+            60,
+            63,
+            62,
+            70,
+            80,
+            82,
+            83,
+            83,
+            100
+        ],
+        "/get/CurrentIncomeChart/getData": {
+            "dateArrary": [
+                "00-10",
+                "10-20",
+                "20-30",
+                "30-40",
+                "40-50",
+                "50-00"
+            ],
+            "countData": [
+                10,
+                52,
+                200,
+                334,
+                390,
+                50
+            ]
+        },
+        "/get/RecentOrder/getData": [
+            {
+                "id": 0,
+                "date": "2020/02/12",
+                "invoiceId": "200002120001",
+                "machineId": "012",
+                "amount": "123.456"
+            },
+            {
+                "id": 1,
+                "date": "2020/03/15",
+                "invoiceId": "200002120002",
+                "machineId": "041",
+                "amount": "789.456"
+            },
+            {
+                "id": 2,
+                "date": "2020/04/16",
+                "invoiceId": "200002120003",
+                "machineId": "312",
+                "amount": "258.456"
+            },
+            {
+                "id": 3,
+                "date": "2020/05/17",
+                "invoiceId": "200002120004",
+                "machineId": "315",
+                "amount": "1234"
+            },
+            {
+                "id": 4,
+                "date": "2020/06/18",
+                "invoiceId": "200002120005",
+                "machineId": "478",
+                "amount": "98764"
+            },
+            {
+                "id": 5,
+                "date": "2020/07/19",
+                "invoiceId": "200002120006",
+                "machineId": "256",
+                "amount": "1"
+            }
+        ],
+        "/get/goodInfo/getChart": {
+            "dateArrary": [
+                "02/11",
+                "02/12",
+                "02/13",
+                "02/14",
+                "02/15",
+                "02/16",
+                "02/17"
+            ],
+            "goodsArrary": [
+                {
+                    "name": "二锅头",
+                    "data": [
+                        10,
+                        12,
+                        21,
+                        54,
+                        260,
+                        830,
+                        710
+                    ]
+                },
+                {
+                    "name": "五粮液",
+                    "data": [
+                        30,
+                        182,
+                        434,
+                        791,
+                        390,
+                        30,
+                        10
+                    ]
+                },
+                {
+                    "name": "宣酒",
+                    "data": [
+                        1320,
+                        1132,
+                        601,
+                        234,
+                        120,
+                        90,
+                        20
+                    ]
+                },
+                {
+                    "name": "吹风机",
+                    "data": [
+                        500,
+                        500,
+                        100,
+                        200,
+                        300,
+                        400,
+                        500
+                    ]
+                },
+                {
+                    "name": "卡拉克",
+                    "data": [
+                        100,
+                        200,
+                        300,
+                        400,
+                        500,
+                        600,
+                        700
+                    ]
+                }
+            ]
+        },
+        "/get/Discount/getPreData": [
+            {
+                "id": "065510",
+                "name": "吹风机",
+                "price": 998,
+                "discountPrice": 200,
+                "percent": 50,
+                "startTime": "2020/05/08",
+                "endTime": "2020/07/05"
+            },
+            {
+                "id": "011210",
+                "name": "卡拉克",
+                "price": 998,
+                "discountPrice": 200,
+                "percent": 50,
+                "startTime": "2020/05/08",
+                "endTime": "2020/07/05"
+            },
+            {
+                "id": "014210",
+                "name": "微波炉",
+                "price": 998,
+                "discountPrice": 200,
+                "percent": 50,
+                "startTime": "2020/05/08",
+                "endTime": "2020/07/05"
+            }
+        ],
+        "/get/Discount/getCurrentData": [
+            {
+                "id": "0000001",
+                "name": "二锅头",
+                "price": 500,
+                "discountPrice": 499,
+                "percent": 99,
+                "endTime": "2020-12-10 11:12:13"
+            },
+            {
+                "id": "0000002",
+                "name": "二锅头",
+                "price": 500,
+                "discountPrice": 499,
+                "percent": 99,
+                "endTime": "2020-12-10 5:24:20"
+            },
+            {
+                "id": "0000003",
+                "name": "二锅头",
+                "price": 500,
+                "discountPrice": 499,
+                "percent": 99,
+                "endTime": "2020-12-10 7:00:30"
+            },
+            {
+                "id": "0000004",
+                "name": "二锅头",
+                "price": 500,
+                "discountPrice": 499,
+                "percent": 99,
+                "endTime": "2020-12-10 1:50:37"
+            }
+        ],
+        "/get/Discount/getHistoryData": [
+            {
+                "id": "065110",
+                "name": "卡拉克",
+                "price": 789,
+                "discountPrice": 100,
+                "percent": 30,
+                "startTime": "2018/05/08",
+                "endTime": "2018/07/05"
+            }
+        ],
+        "/get/Inventory/getChart": {
+            "dateArrary": [
+                "周一",
+                "周二",
+                "周三",
+                "周四",
+                "周五",
+                "周六",
+                "周日"
+            ],
+            "incData": [
+                200,
+                170,
+                240,
+                -244,
+                200,
+                220,
+                210
+            ],
+            "in": [
+                320,
+                302,
+                341,
+                374,
+                390,
+                800,
+                420
+            ],
+            "out": [
+                -120,
+                -132,
+                -101,
+                -134,
+                -190,
+                -230,
+                -210
+            ]
+        },
+        "/get/Inventory/getInRecord": [
+            {
+                "date": "2020/02/07",
+                "name": "0锅头",
+                "id": "2345",
+                "inNum": 500,
+                "numBefore": 100,
+                "numAfter": 600
+            },
+            {
+                "date": "2020/02/07",
+                "name": "1锅头",
+                "id": "3245453",
+                "inNum": 500,
+                "numBefore": 100,
+                "numAfter": 600
+            },
+            {
+                "date": "2020/02/07",
+                "name": "2锅头",
+                "id": "122345453",
+                "inNum": 500,
+                "numBefore": 100,
+                "numAfter": 600
+            },
+            {
+                "date": "2020/02/07",
+                "name": "3锅头",
+                "id": "123325653",
+                "inNum": 500,
+                "numBefore": 100,
+                "numAfter": 600
+            },
+            {
+                "date": "2020/02/07",
+                "name": "4锅头",
+                "id": "12123453",
+                "inNum": 500,
+                "numBefore": 100,
+                "numAfter": 600
+            }
+        ],
+        "/get/Inventory/getOutRecord": [
+            {
+                "date": "2020/02/07",
+                "name": "0锅头",
+                "id": "12331453",
+                "outNum": 500,
+                "numBefore": 600,
+                "numAfter": 100
+            },
+            {
+                "date": "2020/02/07",
+                "name": "1锅头",
+                "id": "67831453",
+                "outNum": 500,
+                "numBefore": 600,
+                "numAfter": 100
+            },
+            {
+                "date": "2020/02/07",
+                "name": "2锅头",
+                "id": "1234853",
+                "outNum": 500,
+                "numBefore": 600,
+                "numAfter": 100
+            },
+            {
+                "date": "2020/02/07",
+                "name": "3锅头",
+                "id": "12367853",
+                "outNum": 500,
+                "numBefore": 600,
+                "numAfter": 100
+            },
+            {
+                "date": "2020/02/07",
+                "name": "4锅头",
+                "id": "1232457453",
+                "outNum": 500,
+                "numBefore": 600,
+                "numAfter": 100
+            }
+        ],
+        "/get/Inventory/getInvStause": [
+            {
+                "name": "0锅头",
+                "id": "123781341453",
+                "num": 100,
+                "date": "2020/02/07"
+            },
+            {
+                "name": "1锅头",
+                "id": "12334453",
+                "num": 100,
+                "date": "2020/02/07"
+            },
+            {
+                "name": "2锅头",
+                "id": "123245453",
+                "num": 100,
+                "date": "2020/02/07"
+            },
+            {
+                "name": "3锅头",
+                "id": "122451453",
+                "num": 100,
+                "date": "2020/02/07"
+            },
+            {
+                "name": "4锅头",
+                "id": "122361453",
+                "num": 100,
+                "date": "2020/02/07"
+            }
+        ],
+        "/get/StaffManagement/getAbsenteeismSheet": [
+            {
+                "id": "0000000",
+                "name": "TOM",
+                "date": "2020/02/07",
+                "description": "年假"
+            },
+            {
+                "id": "2316513",
+                "name": "ace",
+                "date": "2020/02/07",
+                "description": "没来"
+            },
+            {
+                "id": "1000010",
+                "name": "lisa",
+                "date": "2020/02/07",
+                "description": "病假"
+            },
+            {
+                "id": "00001230",
+                "name": "josda",
+                "date": "2020/02/07",
+                "description": "缺勤"
+            }
+        ],
+        "/get/StaffManagement/getDepartment": [
+            "人事部",
+            "商品部",
+            "营业部",
+            "技术部",
+            "安保部",
+            "服务部"
+        ]
+    },
+    "POST": {
+        "/post/MemberManagement/addingMember": [
+            "添加成功"
+        ],
+        "/post/MemberManagement/getChange": [
+            "修改成功"
+        ],
+        "/post/SailInfo/getTable": [
+            {
+                "id": 0,
+                "date": "2020/2/1",
+                "invoiceId": "00000000001",
+                "machineId": "0001",
+                "amount": 123.456
+            },
+            {
+                "id": 1,
+                "date": "2020/2/1",
+                "invoiceId": "00000000002",
+                "machineId": "0002",
+                "amount": 145.231
+            },
+            {
+                "id": 2,
+                "date": "2020/2/1",
+                "invoiceId": "00000000003",
+                "machineId": "0003",
+                "amount": 123.123
+            },
+            {
+                "id": 3,
+                "date": "2020/2/1",
+                "invoiceId": "00000000004",
+                "machineId": "0004",
+                "amount": 2033.23
+            },
+            {
+                "id": 4,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            },
+            {
+                "id": 5,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            },
+            {
+                "id": 6,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            },
+            {
+                "id": 7,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            },
+            {
+                "id": 8,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            },
+            {
+                "id": 9,
+                "date": "2020/2/1",
+                "invoiceId": "00000000005",
+                "machineId": "0005",
+                "amount": 9999.99
+            }
+        ],
+        "/post/SailInfo/getInvoiceInfo": [
+            {
+                "name": "二锅头",
+                "id": "001",
+                "number": "5",
+                "amount": "50",
+                "img": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg"
+            },
+            {
+                "name": "二锅头",
+                "id": "002",
+                "number": "5",
+                "amount": "50",
+                "img": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg"
+            },
+            {
+                "name": "二锅头",
+                "id": "003",
+                "number": "5",
+                "amount": "50",
+                "img": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg"
+            },
+            {
+                "name": "二锅头",
+                "id": "004",
+                "number": "5",
+                "amount": "50",
+                "img": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg"
+            }
+        ],
+        "/post/goodInfo/getTable": [
+            {
+                "id": 0,
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000001",
+                "kind": "0001",
+                "price": 123.456,
+                "inventory": 999
+            },
+            {
+                "goods": "哈根达斯冰淇淋",
+                "imgSrc": "https://img.alicdn.com/imgextra/i4/3931701706/O1CN01DNPHw31OTOBJeCQFJ_!!3931701706.jpg",
+                "goodsId": "00000000002",
+                "kind": "0002",
+                "price": 145.231,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000003",
+                "kind": "0003",
+                "price": 123.123,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000004",
+                "kind": "0004",
+                "price": 2033.23,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000005",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000006",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000007",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000008",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000009",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            },
+            {
+                "goods": "二锅头",
+                "imgSrc": "https://img.alicdn.com/imgextra/i1/725677994/TB2IxTBH49YBuNjy0FfXXXIsVXa_!!725677994.jpg_430x430q90.jpg",
+                "goodsId": "00000000010",
+                "kind": "0005",
+                "price": 9999.99,
+                "inventory": 999
+            }
+        ],
+        "/post/ManageGoods/putDown": [
+            {
+                "id": "0000000",
+                "stause": "下架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000001",
+                "stause": "下架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000002",
+                "stause": "下架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000003",
+                "stause": "下架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000004",
+                "stause": "下架失败 ×",
+                "name": "二锅头"
+            }
+        ],
+        "/upload/ManageGoods/putUp": [
+            {
+                "id": "0000000",
+                "stause": "上架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000001",
+                "stause": "上架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000002",
+                "stause": "上架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000003",
+                "stause": "上架成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000004",
+                "stause": "上架失败 ×",
+                "name": "二锅头"
+            }
+        ],
+        "/upload/ManageGoods/getChange": [
+            {
+                "id": "0000000",
+                "stause": "修改成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000001",
+                "stause": "修改成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000002",
+                "stause": "修改成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000003",
+                "stause": "修改成功 √",
+                "name": "二锅头"
+            },
+            {
+                "id": "0000004",
+                "stause": "修改失败 ×",
+                "name": "二锅头"
+            }
+        ],
+        "/post/Discount/getInventory": {
+            "0000001": 23456,
+            "0000002": 45232,
+            "0000003": 47563,
+            "0000004": 78963
+        },
+        "/post/Discount/delDiscount": [
+            "成功"
+        ],
+        "/upload/Discount/addDiscount": [
+            {
+                "id": "0101001",
+                "name": "二锅头",
+                "percent": 90,
+                "startTime": "2020/05/05",
+                "stause": "添加成功"
+            },
+            {
+                "id": "01046001",
+                "name": "吹风机",
+                "percent": 90,
+                "startTime": "2020/05/05",
+                "stause": "添加失败"
+            }
+        ],
+        "/post/MemberManagement/getMemberRecords": [
+            {
+                "id": "123456789",
+                "money": "800",
+                "point": "50",
+                "date": "2020-12-10"
+            },
+            {
+                "id": "45632684",
+                "money": "8456",
+                "point": "80",
+                "date": "2019-12-20"
+            },
+            {
+                "id": "98746535",
+                "money": "65689",
+                "point": "90",
+                "date": "2019-10-20"
+            }
+        ],
+        "/post/StaffManagement/getAttendanceSheet": [
+            {
+                "id": "0000001",
+                "name": "王伟",
+                "checkIn": "08:00",
+                "checkOut": "19:00",
+                "description": ""
+            },
+            {
+                "id": "000002",
+                "name": "张丽",
+                "checkIn": "--",
+                "checkOut": "--",
+                "description": "病假"
+            },
+            {
+                "id": "01231241",
+                "name": "李旺",
+                "checkIn": "--",
+                "checkOut": "--",
+                "description": "病假"
+            }
+        ],
+        "/post/StaffManagement/getStaffByDepartment": [
+            {
+                "id": "000001",
+                "name": "lty65",
+                "phone": "1315467",
+                "sallary": "5000",
+                "position": "2000",
+                "department": "5adfcF8",
+                "entrydate": " SDf8"
+            },
+            {
+                "id": "000002",
+                "name": "lAEDF5",
+                "phone": "13sDF467",
+                "sallary": "5000",
+                "position": "2000",
+                "department": "5adfcF8",
+                "entrydate": " SDf8"
+            },
+            {
+                "id": "000003",
+                "name": "lsrtj5",
+                "phone": "1315467",
+                "sallary": "5000",
+                "position": "2000",
+                "department": "5adfcF8",
+                "entrydate": " SDf8"
+            },
+            {
+                "id": "000004",
+                "name": "53AERH",
+                "phone": "1315467",
+                "sallary": "5000",
+                "position": "2000",
+                "department": "5adfcF8",
+                "entrydate": " SDf8"
+            }
+        ],
+        "/post/StaffManagement/getChange": [
+            "success"
+        ]
+    }
+}
